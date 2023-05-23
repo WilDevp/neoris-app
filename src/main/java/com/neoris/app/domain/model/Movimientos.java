@@ -1,5 +1,6 @@
 package com.neoris.app.domain.model;
 
+import com.neoris.app.domain.enums.TipoMovimientoEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
