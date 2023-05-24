@@ -11,13 +11,13 @@ import com.neoris.app.domain.model.Cliente;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-public class ClienteServicesImpl implements ClientePort {
+public class ClienteServices implements ClientePort {
 
     private final ClienteServicesPort clienteServicesPort;
     private final ClienteDataMapper clienteDataMapper;
 
-    public ClienteServicesImpl(ClienteServicesPort clienteServicesPort,
-                               ClienteDataMapper clienteDataMapper) {
+    public ClienteServices(ClienteServicesPort clienteServicesPort,
+                           ClienteDataMapper clienteDataMapper) {
         this.clienteServicesPort = clienteServicesPort;
         this.clienteDataMapper = clienteDataMapper;
     }

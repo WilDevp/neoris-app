@@ -1,7 +1,8 @@
 package com.neoris.app.domain.enums.enumImplConvert;
 
 import com.fasterxml.jackson.databind.util.StdConverter;
-import com.neoris.app.domain.GeneroEnum;
+
+import com.neoris.app.domain.enums.GeneroEnum;
 import org.springframework.util.ObjectUtils;
 
 import javax.persistence.AttributeConverter;

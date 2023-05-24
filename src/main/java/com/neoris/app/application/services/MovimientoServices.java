@@ -24,17 +24,17 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
-public class MovimientoServicesImpl implements MovimientoPort {
+public class MovimientoServices implements MovimientoPort {
 
     private final MovimientoServicesPort movimientoServicesPort;
     private final MovimientoDataMapper movimientoDataMapper;
     private final CuentaServicesPort cuentaServicesPort;
     private final ClienteServicesPort clienteServicesPort;
 
-    public MovimientoServicesImpl(MovimientoServicesPort movimientoServicesPort,
-                                  MovimientoDataMapper movimientoDataMapper,
-                                  CuentaServicesPort cuentaServicesPort,
-                                  ClienteServicesPort clienteServicesPort){
+    public MovimientoServices(MovimientoServicesPort movimientoServicesPort,
+                              MovimientoDataMapper movimientoDataMapper,
+                              CuentaServicesPort cuentaServicesPort,
+                              ClienteServicesPort clienteServicesPort){
         this.movimientoServicesPort = movimientoServicesPort;
         this.movimientoDataMapper = movimientoDataMapper;
         this.cuentaServicesPort = cuentaServicesPort;

@@ -1,4 +1,4 @@
-package com.neoris.app.infraestructure.config;
+package com.neoris.app.infrastructure.config;
 
 
 import org.springframework.context.annotation.Bean;

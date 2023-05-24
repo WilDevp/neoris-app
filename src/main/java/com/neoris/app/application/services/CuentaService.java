@@ -11,14 +11,14 @@ import com.neoris.app.domain.model.Cuenta;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-public class CuentaServiceImpl implements CuentaPort {
+public class CuentaService implements CuentaPort {
 
     private final CuentaServicesPort cuentaServicesPort;
     private final CuentaDataMapper cuentaDataMapper;
 
 
-    public CuentaServiceImpl(CuentaServicesPort cuentaServicesPort,
-                             CuentaDataMapper cuentaDataMapper){
+    public CuentaService(CuentaServicesPort cuentaServicesPort,
+                         CuentaDataMapper cuentaDataMapper){
         this.cuentaServicesPort = cuentaServicesPort;
         this.cuentaDataMapper = cuentaDataMapper;
     }
