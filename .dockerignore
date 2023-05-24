@@ -1,0 +1,11 @@
+# Archivos y directorios que se excluirán al copiar al contenedor de Docker
+
+# Archivos y directorios generados por Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Otros archivos y directorios que no son necesarios en el contenedor
+.idea/
+.git/
