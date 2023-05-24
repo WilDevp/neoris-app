@@ -1,6 +1,8 @@
 package com.neoris.app.domain.model;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.neoris.app.domain.enums.TipoCuentaEnum;
+import com.neoris.app.domain.enums.enumImplConvert.TipoCuentaEnumConverter;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.neoris.app.domain
+package com.neoris.app.domain.enums;
 
 import lombok.Getter;
 @Getter
